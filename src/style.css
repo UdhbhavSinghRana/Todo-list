@@ -15,13 +15,35 @@ html {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color:#7d7;
 }
 
 .main-content {
     display: flex;
+    padding: 1rem;
+    flex-direction: column;
     height: 30rem;
-    justify-content: center;
     align-items: center;
     width: 40rem;
-    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+    background-color: #fff;
+}
+
+.date {
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+}
+
+.full-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tasks {
+    padding-top: 2rem;
+    display: flex;
+    width: 90%; 
 }
