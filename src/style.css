@@ -19,6 +19,7 @@ html {
 }
 
 .main-content {
+    position: relative;
     display: flex;
     padding: 1rem;
     flex-direction: column;
@@ -46,4 +47,15 @@ html {
     padding-top: 2rem;
     display: flex;
     width: 90%; 
+}
+
+.btn {
+    position: absolute; 
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    left: 50%;
+}
+
+.inner-btn {
+    width: 3rem;
 }
