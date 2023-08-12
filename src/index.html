@@ -5,21 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
+    <script src="main.js" defer></script>
 </head>
 <body>
     <div class="container">
         <div class="main-content">
-            <div class="full-date">
-                <h1> Saturday </h1>
-                <span class="date"> August 12, 2023 </span>
-            </div>
-            <div class="tasks">
-                <div>
-                    task 1
+            <div class="task-box" id="tasks-id">
+                <div class="full-date">
+                    <h1> Saturday </h1>
+                    <span class="date"> August 12, 2023 </span>
+                </div>
+                <div class="tasks" id="all-tasks-id">
+                    <div class="no-task">
+                        No task yet
+                    </div>
                 </div>
             </div>
-             <div class="btn">
-                <button class="inner-btn">
+            <form class="form-box-hidden" id="form-id">
+                <div class="task-heading">
+                    <h2> Add Task </h2>
+                </div>
+                <div class="task-inp">
+                    <input type="text" class="inner-task-inp" id="inp-id" placeholder="Add a new task">
+                </div>
+            </form>
+            <div class="btn">
+                <button class="inner-btn" id="btn-id">
                     <h1> + </h1>
                 </button>
             </div>
